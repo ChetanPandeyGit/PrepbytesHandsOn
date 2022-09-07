@@ -1,0 +1,19 @@
+*{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,h2{
+    color: brown;
+}
+ul>li{
+    letter-spacing: 5px;
+}
+a{
+    color: brown;
+    background-color: yellow;
+    text-decoration: none;
+    font-style: italic;
+}
+span{
+    font-weight: bold;
+}
