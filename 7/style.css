@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 900;
+}
+.heading{
+    background: linear-gradient(to right, red,darkgreen,green,greenyellow,yellow);
+    font-size: x-large;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.links{
+    background-color: rgb(75, 148, 203);
+    border: 4px solid red;
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.top-cards{
+    background-color: aqua;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.cards{
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 0 20px;    
+}
+.uniq{
+    grid-column-start: 2;
+}
+.subheading{
+    background: linear-gradient(to right, red,yellow,red);
+    text-decoration: underline;
+    font-size: large;
+    font-weight: 600;
+    height: 40px;
+}
+.mid-cards{
+    background: radial-gradient(blue,lightgreen);
+    border:4px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+}
+.mdcrd{
+background-color: yellow;
+color: brown;
+border: 3px solid brown;
+border-radius: 10px;
+margin: 6vh;
+height:17vh;
+width: 15vw;
+text-decoration: underline;
+line-height: 1.5;
+}
+.advertise{
+    border: 2px solid gray;     
+}
+.ad-head{
+    background-color: rgb(211, 60, 85);
+    color: white;
+    height: 40px;
+    font-size: x-large;
+}
+.ad-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 80px;
+    grid-template-rows: 1fr 2fr ;
+    gap: 15px;
+    height: 40vh;
+}
+.adcrd{
+    color: white; 
+    text-align: left;   
+}
+.crd1{
+    background-color: lightgreen;
+    font-size: xx-large;
+    text-align: center;
+}
+.crd2{
+    background-color: dodgerblue;
+    font-size: x-large;
+}
+.crd3{
+    background-color: rgb(113, 39, 232);
+    font-size: large;
+}
+.crd4{
+    background-color: rgb(19, 19, 19);
+    font-size: large;
+    grid-column: 4;
+    grid-row: 1/3 ;
+}
+.crd5{
+    background-color: orange;
+    font-size: x-large;
+    grid-column: 1/4;
+}
+.conclusion{
+    background-color: rgb(50, 208, 229); 
+    margin-bottom: 20px;     
+}
