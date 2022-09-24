@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    text-align: center;
+}
+.container{
+    width: 20vw;
+    height: 125vh;
+    margin: auto;   
+} 
+.container ol{
+    margin: 0 ;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-bottom:20px ;
+}
+.type1{
+    transition: width 2s ease-in-out;
+}
+.type1:hover{    
+    width: 300px;
+} 
+.type2{
+    transition:  height 2s,width 1s ;
+}
+.type2:hover{    
+    width: 300px;
+    height: 300px;
+} 
+.type3{
+    transition: width 2s linear;
+}
+.type3:hover{
+    width: 300px;
+}
+.type4{
+    transition: width 2s ease;
+}
+.type4:hover{
+    width: 300px;
+}
+.type5{
+    transition: width 2s ease-in;
+}
+.type5:hover{
+    width: 300px;
+}
+.type6{
+    transition: width 2s ease-out;
+}
+.type6:hover{
+    width: 300px;
+}
+.type7{
+    transition: width 2s ease-in-out;
+}
+.type7:hover{
+    width: 300px;
+}
+a{
+    font-size: xx-large;
+}

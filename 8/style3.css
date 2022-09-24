@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+.sky-bg{
+    position: relative;
+    border-left: 10px solid orangered;
+    border-top: 10px solid whitesmoke;
+    border-right: 10px solid green;
+    border-bottom: 10px solid hotpink;
+    overflow: hidden;
+}
+.sky-bg img{    
+    width: 97.30vw;
+    z-index: -1;
+}
+#happy{
+    position: absolute;
+    top: 0;
+    left: 130px;
+    background-color: orangered;
+    font-size: xx-large;
+    font-weight: 900;
+}
+#ind{
+    position: absolute;
+    top: 0;
+    left: 400px;
+    background-color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 900;
+}
+#day{
+    position: absolute;
+    top: 0;
+    left:1000px;
+    background-color: green;
+    font-size: xx-large;
+    font-weight: 900;
+}
+#first-part{    
+    position: absolute;
+    top: 270px;
+    left: 0;
+    z-index: 0;
+    animation: ct 25s linear infinite;
+}
+@keyframes ct{
+    from{
+        transform: translate(0) ;
+    }
+    to{
+        transform: translate(-100vw) ;
+    }
+} 
+#last-part{    
+    position: absolute;
+    background-repeat: repeat-x;
+    top: 270px;
+    left:1340px;
+    z-index: 0;
+    animation: ct 25s linear infinite;
+}
+.road img{ 
+    position: absolute;
+    background-repeat: repeat-x;
+    top: 505px;
+    left: 0;
+    height: 247px;
+    width: 200vw;
+    z-index: 0;
+    animation: rd 5s linear infinite;
+}
+@keyframes rd{
+    from{
+        transform: translate(0) ;
+    }
+    to{
+        transform: translate(-100vw) ;
+    }
+}
+.car img{
+    position: absolute;
+    top: 435px;
+    left: 380px;  
+    z-index: 1;
+    height: 200px;
+    width: auto;
+}
+.front-tyre img{
+    position: absolute;
+    top: 543px;
+    right: 526px;
+    width: 85px;
+    height: auto;
+    z-index: 1;
+    animation: fta 1s linear infinite;
+}
+@keyframes fta{
+    from{
+        transform: rotate(0deg) ;
+    }
+    to{
+        transform: rotate(360deg) ;
+    }
+}
+.back-tyre img{
+    position: absolute;
+    top: 543px;
+    left: 423px;
+    width: 85px;
+    height: auto;
+    z-index: 1;
+    animation: fta 1s linear infinite;
+}
+.flag img{  
+    position: absolute;
+    top: 424px;
+    left: 745px;
+    width: 85px;
+    height: auto; 
+    z-index: 1;
+}
+.sun img{ 
+    position: absolute;
+    top: 22px;
+    right: 0;
+    width: 300px;
+    height: auto; 
+    z-index: 1;
+    opacity: 0.8;
+    animation: sn 50s linear infinite;
+}
+@keyframes sn{
+    from{
+        transform: translate(0) ;
+    }
+    to{
+        transform: translate(-100vw) ;
+    }
+}
+
